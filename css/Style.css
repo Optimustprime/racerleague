@@ -7,6 +7,14 @@ body {
     overflow-x: hidden;
 }
 @media (min-width: 576px) {
+    .fort {
+        position: relative;
+        height: 1200px;
+    }
+    .thi {
+        position: relative;
+        height: 1200px;
+    }
     .sec {
         height: 1370px;
         width: 100%;
@@ -81,7 +89,6 @@ body {
     }
     .first {
         height: 1500px;
-        background-color: aqua;
     }
     .don {
         position: absolute;
@@ -159,6 +166,44 @@ body {
 
 }
 @media (min-width: 992px) {
+    .f1 {
+        height: 75px;
+        width: 298px;
+        position: absolute;
+        background-color: black;
+        border: 2px solid #2000FB;
+        transform: skewX(-35deg);
+        left: 112px;
+        top: 182px;
+    }
+
+    .f2 {
+        height: 75px;
+        width: 396px;
+        position: absolute;
+        background-color: black;
+        border: 2px solid #2000FB;
+        transform: skewX(-35deg);
+        left: 150px;
+        top: 297px;
+    }
+
+    .f3 {
+        height: 57px;
+        width: 197px;
+        position: absolute;
+        background-color: black;
+        border: 2px solid #2000FB;
+        transform: skewX(-35deg);
+        left: 392px;
+        top: 407px;
+    }
+    .fort {
+        position: relative;
+    }
+    .thi {
+        position: relative;
+    }
     .sec {
         height: 500px;
         width: 100%;
@@ -198,7 +243,7 @@ body {
              margin-top: 0px; 
         }
     .first {
-
+        height:fit-content;
     }
     .don {
         position: absolute;
