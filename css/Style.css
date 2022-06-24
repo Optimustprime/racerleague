@@ -1,0 +1,287 @@
+﻿#nav {
+    /*background: #0A0808;*/
+}
+body {
+    max-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+@media (min-width: 576px) {
+    .sec {
+        height: 1370px;
+        width: 100%;
+        background-image: linear-gradient(180deg,#2B0B2A, black);
+        color: white;
+    }
+    .logo {
+        width: 35%;
+        margin-left: 25px;
+    }
+    .race {
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .stu {
+        position: relative;
+        top: 48%;
+        background: transparent;
+        width: 623px;
+        color: #F5AB32;
+        font-size: 3rem;
+        border-radius: 1.25rem;
+        height: 116px;
+        float: left;
+        display: inline-block;
+        border: 1px solid white;
+        padding: 0.375rem 0.75rem;
+        -webkit-appearance: button;
+        box-shadow: 2px 6px 15px #797777;
+    }
+    .nav-font {
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .nav-font li{
+        margin-top:80px;
+    }
+        
+    .navbar-collapse {
+        height: 100vh;
+        padding:100px;
+    }
+    .f1 {
+        height: 75px;
+        width: 298px;
+        position: absolute;
+        background-color: black;
+        border: 2px solid #2000FB;
+        transform: skewX(-35deg);
+        left: 112px;
+        top: 386px;
+    }
+    .f2 {
+        height: 75px;
+        width: 396px;
+        position: absolute;
+        background-color: black;
+        border: 2px solid #2000FB;
+        transform: skewX(-35deg);
+        left: 150px;
+        top: 545px;
+    }
+    .f3 {
+        height: 57px;
+        width: 197px;
+        position: absolute;
+        background-color: black;
+        border: 2px solid #2000FB;
+        transform: skewX(-35deg);
+        left: 392px;
+        top: 692px;
+    }
+    .first {
+        height: 1500px;
+        background-color: aqua;
+    }
+    .don {
+        position: absolute;
+        font-size: 1rem;
+        color: white;
+        bottom: 291px;
+        right: 62px;
+    }
+    .slick {
+        text-align: center;
+        font-size: 60px;
+    }
+    .slick_a {
+        font-size: 45px;
+        font-weight:100;
+        text-align: center;
+        margin-left: 63px;
+        margin-right: 63px;
+        margin-top: 65px;
+    }
+    .movie {
+        background-color: white;
+        width: 72%;
+        height: 600px;
+        margin: auto;
+        margin-top: 100px;
+        transform: skewX(-12deg);
+        border-radius: 30px;
+    
+    }
+    .nfont {
+        color: white;
+        right: 40px;
+        top: 130px;
+        position: absolute;
+        font-size: 32px;
+    }
+    .rfont {
+        position: absolute;
+        color: white;
+        left: 40px;
+        top: 129px;
+        font-size: 30px;
+    }
+    .mydiv {
+        width: 61%;
+        position: relative;
+        top: 285px;
+        margin: auto;
+        margin-bottom: 90px;
+        height: 3237px;
+    }
+    .mydi {
+        width: 61%;
+        position: relative;
+        top: 285px;
+        margin: auto;
+        margin-bottom: 90px;
+    }
+    .myhi{
+        height:3307px;
+    }
+    .space {
+        margin-bottom: 50px;
+        height:20%;
+    }
+    .meo {
+        font-size: 27px;
+    }
+    .myb {
+        text-align: center;
+        font-size: 30px;
+    }
+   
+
+}
+@media (min-width: 992px) {
+    .sec {
+        height: 500px;
+        width: 100%;
+        background-image: linear-gradient(180deg,#2B0B2A, black);
+        color: white;
+    }
+    .logo {
+        width: 9%;
+        margin-left: 20px;
+    }
+    .race {
+        font-size: calc(1.325rem + 0.9vw);
+        font-weight: bold;
+    }
+    .stu {
+        background: transparent;
+        width: 209px;
+        color: #F5AB32;
+        font-size: 1rem;
+        border-radius: 1.25rem;
+        height: 47px;
+        float: left;
+        display: inline-block;
+        border: 1px solid white;
+        padding: 0.375rem 0.75rem;
+        -webkit-appearance: button;
+        box-shadow: 2px 6px 15px #797777;
+    }
+    .navbar-collapse {
+        height: 0;
+        padding: 0;
+    }
+    .nav-font {
+        font-size: 32px;
+    }
+        .nav-font li {
+             margin-top: 0px; 
+        }
+    .first {
+
+    }
+    .don {
+        position: absolute;
+        font-size: 1rem;
+        color: white;
+        top: 689px;
+        right: 62px;
+    }
+    .slick {
+        font-size:31px;
+        margin-left: 80px;
+        margin-top: 100px;
+        text-align: unset;
+    }
+    .slick_a {
+        text-align: unset;
+        margin-left: 80px;
+        width: 44%;
+        font-size: 14px;
+    }
+    .movie {
+        width: 40%;
+        position: absolute;
+        right: 58px;
+        top: 10px;
+        height: 300px;
+    }
+    .nfont {
+        font-size: 43px;
+    }
+    .rfont{
+        font-size:39px;
+    }
+    .mydiv {
+        width: 62%;
+        position: relative;
+        top: 285px;
+        margin: auto;
+        margin-bottom: 90px;
+        height: 643px;
+    }
+    .mydi {
+        width: 62%;
+        position: relative;
+        top: 285px;
+        margin: auto;
+        margin-bottom: 90px;
+  
+    }
+    .meo {
+      
+        font-size: 12px;
+    }
+    .myhi{
+        height:1634px;
+    }
+
+}
+@media (min-width: 1200px) {
+    /*.don {
+        position: absolute;
+        font-size: 1rem;
+        color: white;
+        top: 769px;
+        right: 62px;
+    }*/
+}
+    html {
+        height: 100%;
+    }
+
+    .trans {
+        transform: skewX(-25deg)
+    }
+
+    .stpng {
+        width: 100%;
+    }
+
+    @media (min-width: 992px) {
+        /*background-image: linear-gradient(180deg, #571818,black);*/
+        #navfont {
+            color: #FFFFFF;
+            font-size: 15px;
+        }
+    }
