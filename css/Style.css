@@ -9,11 +9,15 @@ body {
 @media (min-width: 576px) {
     .fort {
         position: relative;
-        height: 1200px;
+        height: 1240px;
+        background-image: url(thi-500.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
     }
     .thi {
         position: relative;
-        height: 1200px;
+        height: 1224px;
     }
     .sec {
         height: 1370px;
@@ -31,7 +35,7 @@ body {
     }
     .stu {
         position: relative;
-        top: 48%;
+        top: 25%;
         background: transparent;
         width: 623px;
         color: #F5AB32;
@@ -62,7 +66,7 @@ body {
         width: 298px;
         position: absolute;
         background-color: black;
-        border: 2px solid #2000FB;
+        border: 2px solid #9f0315;
         transform: skewX(-35deg);
         left: 112px;
         top: 386px;
@@ -72,7 +76,7 @@ body {
         width: 396px;
         position: absolute;
         background-color: black;
-        border: 2px solid #2000FB;
+        border: 2px solid #9f0315;
         transform: skewX(-35deg);
         left: 150px;
         top: 545px;
@@ -82,13 +86,35 @@ body {
         width: 197px;
         position: absolute;
         background-color: black;
-        border: 2px solid #2000FB;
+        border: 2px solid #9f0315;
         transform: skewX(-35deg);
         left: 392px;
         top: 692px;
     }
     .first {
         height: 1500px;
+        
+    }
+    .c1 {
+        height: inherit;
+        background-image: url(first-500.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+    .c2 {
+        height: inherit;
+        background-image: url(yellow-500.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+    .c3 {
+        height: inherit;
+        background-image: url(pink-500.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
     }
     .don {
         position: absolute;
@@ -119,19 +145,32 @@ body {
         border-radius: 30px;
     
     }
-    .nfont {
-        color: white;
-        right: 40px;
-        top: 130px;
+    .kill {
         position: absolute;
-        font-size: 32px;
+        color: white;
+        width: 390px;
+        right: 17px;
+        font-size: 25px;
+        text-align: right;
+        top: 541px;
+    }
+    .nfont {
+        width:506px;
+        right: 40px;
+        top: 930px;
+        position: absolute;
     }
     .rfont {
         position: absolute;
-        color: white;
+        width: 511px;
         left: 40px;
-        top: 129px;
-        font-size: 30px;
+        top: 19px;
+    }
+    .rfon {
+        width: 427px;
+        position: absolute;
+        left: 125px;
+        top: 146px;
     }
     .mydiv {
         width: 61%;
@@ -162,6 +201,29 @@ body {
         text-align: center;
         font-size: 30px;
     }
+    .d1 {
+        height: inherit;
+        background-image: url(blu-500.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+
+    .d2 {
+        height: inherit;
+        background-image: url(yello-500.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+
+    .d3 {
+        height: inherit;
+        background-image: url(pin-500.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
    
 
 }
@@ -169,10 +231,6 @@ body {
     .f1 {
         height: 75px;
         width: 298px;
-        position: absolute;
-        background-color: black;
-        border: 2px solid #2000FB;
-        transform: skewX(-35deg);
         left: 112px;
         top: 182px;
     }
@@ -180,10 +238,6 @@ body {
     .f2 {
         height: 75px;
         width: 396px;
-        position: absolute;
-        background-color: black;
-        border: 2px solid #2000FB;
-        transform: skewX(-35deg);
         left: 150px;
         top: 297px;
     }
@@ -191,18 +245,48 @@ body {
     .f3 {
         height: 57px;
         width: 197px;
-        position: absolute;
-        background-color: black;
-        border: 2px solid #2000FB;
-        transform: skewX(-35deg);
         left: 392px;
         top: 407px;
     }
+    .myb {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 169px;
+    }
     .fort {
         position: relative;
+        height: 743px;
+        background-image: url(thirdimg.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
     }
     .thi {
         position: relative;
+        height:630px;
+    }
+    .d1 {
+        height: inherit;
+        background-image: url(blu-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+
+    .d2 {
+        height: inherit;
+        background-image: url(yello-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+
+    .d3 {
+        height: inherit;
+        background-image: url(pin-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
     }
     .sec {
         height: 500px;
@@ -243,7 +327,29 @@ body {
              margin-top: 0px; 
         }
     .first {
-        height:fit-content;
+        height: 720px;
+        
+    }
+    .c1 {
+        height: inherit;
+        background-image: url(first-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+    .c2 {
+        height: inherit;
+        background-image: url(yellow-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+    .c3 {
+        height: inherit;
+        background-image: url(pink-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
     }
     .don {
         position: absolute;
@@ -257,6 +363,9 @@ body {
         margin-left: 80px;
         margin-top: 100px;
         text-align: unset;
+    }
+    .kill{
+        top:175px;
     }
     .slick_a {
         text-align: unset;
@@ -272,7 +381,8 @@ body {
         height: 300px;
     }
     .nfont {
-        font-size: 43px;
+        top: 430px;
+        width:400px;
     }
     .rfont{
         font-size:39px;
@@ -302,7 +412,37 @@ body {
     }
 
 }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
+    .fort{
+        height:835px;
+    }
+    .first {
+        height: 811px;
+    }
+    .thi{
+        height:711px;
+    }
+    .c1 {
+        height: inherit;
+        background-image: url(first-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+    .c2 {
+        height: inherit;
+        background-image: url(yellow-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+    .c3 {
+        height: inherit;
+        background-image: url(pink-1400.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
     /*.don {
         position: absolute;
         font-size: 1rem;
