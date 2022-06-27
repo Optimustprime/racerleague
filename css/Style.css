@@ -7,6 +7,11 @@ body {
     overflow-x: hidden;
 }
 @media (min-width: 576px) {
+    .tip {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10%;
+    }
     .fort {
         position: relative;
         height: 1240px;
@@ -228,6 +233,9 @@ body {
 
 }
 @media (min-width: 992px) {
+    .tip {
+        margin-top: 18%;
+    }
     .f1 {
         height: 75px;
         width: 298px;
@@ -251,7 +259,6 @@ body {
     .myb {
         text-align: center;
         font-size: 15px;
-        margin-bottom: 169px;
     }
     .fort {
         position: relative;
@@ -417,10 +424,10 @@ body {
         height:835px;
     }
     .first {
-        height: 811px;
+        height: 779px;
     }
     .thi{
-        height:711px;
+        height:682px;
     }
     .c1 {
         height: inherit;
@@ -470,3 +477,38 @@ body {
             font-size: 15px;
         }
     }
+@media (min-width: 1600px) {
+    .first {
+        height: 914px;
+    }
+
+    .thi {
+        height: 799px;
+    }
+
+    .fort {
+        height: 939px;
+    }
+
+    .tip {
+        margin-top: 9%;
+    }
+}
+@media (min-width: 1920px) {
+    .tip {
+        margin-top: 4%;
+    }
+    .myhi {
+        height: 1725px;
+    }
+    .first {
+        height: 1095px;
+    }
+    .thi {
+        height: 958px;
+    }
+    .fort {
+        height: 1128px;
+    }
+}
+
